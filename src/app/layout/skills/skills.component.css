@@ -1,0 +1,48 @@
+.all-skills {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill {
+  background-color: #d4d4d4;
+  color: black;
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  transition: 0.3s;
+  margin: 2rem;
+  min-width: 12.6rem;
+  min-height: 4.2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill:hover {
+  border-top: 5px solid red;
+  border-bottom: 5px solid red;
+}
+
+.skill-name {
+  font-size: 1.8rem;
+}
+
+.all-skills .skill svg {
+  width: 3.5rem;
+  margin-right: 1rem;
+}
+
+@media (max-width: 468px) {
+  .skill {
+    margin: 0.75rem;
+    padding: 0.75rem;
+  }
+}

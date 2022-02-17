@@ -1,0 +1,72 @@
+.img-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  padding: 10px;
+  background: linear-gradient(rgb(189, 189, 189), rgb(90, 90, 255));
+  transition: 0.3s;
+  margin-bottom: 20px;
+  /* opacity: 0; */
+  animation: fadeInImage 1s linear;
+}
+
+.profile-img:hover {
+  background: linear-gradient(gold, #fe7bb3);
+  transition: 0.3s;
+}
+
+.name {
+  text-align: center;
+  font-size: 32px;
+  padding: 2rem;
+  background-color: #333;
+  color: white;
+  box-shadow: inset 1rem 1rem 20px #111333;
+}
+
+.main-paragraph {
+  font-size: 1.8rem;
+  padding: 2rem;
+  width: 90%;
+  margin: auto;
+  text-align: justify;
+  line-height: 3.7rem;
+}
+
+.cv-wrapper {
+  font-size: 1.8rem;
+  background-color: purple;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.cv-wrapper a {
+  padding: 2rem;
+  display: block;
+  color: white;
+}
+
+.cv-wrapper:hover {
+  background-color: rgb(189, 23, 189);
+}
+
+.cv-wrapper:hover a {
+  color: black;
+}
+
+@keyframes fadeInImage {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

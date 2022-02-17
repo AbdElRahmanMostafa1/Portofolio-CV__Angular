@@ -1,0 +1,31 @@
+header {
+  width: 100%;
+  background-color: rgb(214, 245, 235);
+  box-shadow: 0 0 10px #333;
+  margin-bottom: var(--main-margin);
+}
+
+.navbar {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+}
+
+.navbar .logo {
+  display: block;
+  width: 70px;
+}
+
+.navbar a svg {
+  width: 40px;
+  height: 40px;
+  color: black;
+  margin-left: 1rem;
+}
+
+.navbar a .linkedin {
+  color: #0a66c2;
+}

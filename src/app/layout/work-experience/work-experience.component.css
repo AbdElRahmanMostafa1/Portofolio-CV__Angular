@@ -1,0 +1,52 @@
+.work {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.project {
+  font-size: 1.6rem;
+  margin: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px;
+  overflow: hidden;
+  transition: 0.3s;
+  border: 0.5rem solid transparent;
+  cursor: pointer;
+  min-height: 44rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project:hover {
+  box-shadow: 0 0 0;
+  border: 0.5rem solid #333444;
+}
+
+.project img {
+  width: 312px;
+}
+
+.project-title {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.used-techs {
+  padding: 2rem;
+  background: azure;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 27rem;
+}
+
+.used-techs span {
+  margin: 0.5rem;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  padding: 0.5rem;
+  text-transform: capitalize;
+}

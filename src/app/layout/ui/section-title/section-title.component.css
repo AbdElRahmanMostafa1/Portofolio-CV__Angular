@@ -1,0 +1,9 @@
+h1 {
+  padding: 24px;
+  margin-bottom: var(--main-margin);
+  font-size: 30px;
+  background: #61937e;
+  text-align: center;
+  box-shadow: inset 0 0 10px #000;
+  color: white;
+}
