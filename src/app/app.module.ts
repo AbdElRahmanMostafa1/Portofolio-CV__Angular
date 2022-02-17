@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './layout/navbar/navbar.component';
 import { AboutMeComponent } from './layout/about-me/about-me.component';
@@ -24,7 +23,7 @@ import { FooterComponent } from './layout/footer/footer.component';
     ContactMeComponent,
     FooterComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, LazyLoadImageModule],
+  imports: [BrowserModule, LazyLoadImageModule],
   providers: [],
   bootstrap: [AppComponent],
 })
