@@ -27,6 +27,8 @@
 
 .project img {
   width: 312px;
+  flex: 1;
+  object-fit: initial;
 }
 
 .project-title {
